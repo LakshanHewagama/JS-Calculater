@@ -1,8 +1,10 @@
 
 
-h1{
+p{
     text-align: center;
     font-family: poppins;
+    font-weight: 10px;
+    font-size: 30px;
 }
 
 .calculator {

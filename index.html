@@ -11,33 +11,30 @@
 </head>
 <body>
 
-    <h1>Calculater</h1>
+    <p>Simple JS Calculater</p>
 
     <div class="calculator">
-        <div class="calculator__output">0</div>
+        <div class="calculator__output" id="display">0</div>
         <div class="calculator__keys">
-          <button class="calculator__key">7</button>
-          <button class="calculator__key">8</button>
-          <button class="calculator__key">9</button>
-          <button class="calculator__key">4</button>
-          <button class="calculator__key">5</button>
-          <button class="calculator__key">6</button>
-          <button class="calculator__key">1</button>
-          <button class="calculator__key">2</button>
-          <button class="calculator__key">3</button>
-          <button class="calculator__key">0</button>
-          <button class="calculator__key">.</button>
-          <button class="calculator__key">AC</button>
-          <button class="calculator__key calculator__key--enter">=</button>
-          <button class="calculator__key calculator__key--operator">+</button>
-          <button class="calculator__key calculator__key--operator">-</button>
-          <button class="calculator__key calculator__key--operator">&times;</button>
-          <button class="calculator__key calculator__key--operator">÷</button>
-          
-          
+          <button class="calculator__key calculator__key--operator" id="nAD" onclick=fnAD()>+</button>
+          <button class="calculator__key calculator__key--operator" id="nMN" onclick=fnMN()>-</button>
+          <button class="calculator__key calculator__key--operator" id="nML" onclick=fnML()>&times;</button>
+          <button class="calculator__key calculator__key--operator" id="nDV" onclick=fnDV()>÷</button>
+          <button class="calculator__key" id="n7" onclick=fn7()>7</button>
+          <button class="calculator__key" id="n8" onclick=fn8()>8</button>
+          <button class="calculator__key" id="n9" onclick=fn9()>9</button>
+          <button class="calculator__key" id="n4" onclick=fn4()>4</button>
+          <button class="calculator__key" id="n5" onclick=fn5()>5</button>
+          <button class="calculator__key" id="n6" onclick=fn6()>6</button>
+          <button class="calculator__key" id="n1" onclick=fn1()>1</button>
+          <button class="calculator__key" id="n2" onclick=fn2()>2</button>
+          <button class="calculator__key" id="n3" onclick=fn3()>3</button>
+          <button class="calculator__key" id="n0" onclick=fn0()>0</button>
+          <button class="calculator__key" id="nUN" onclick=fnUN()>E</button>
+          <button class="calculator__key" id="nAC" onclick=fnAC()>AC</button>
+          <button class="calculator__key calculator__key--enter" id="nEQ" onclick=fnEQ()>=</button>
         </div>
       </div>
-
 
 
     
